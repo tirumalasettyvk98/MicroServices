@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Eureka-Server
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false # it will deregister the client itself
+    fetch-registry: false # it will deregister other eureka server bcz i have one server
